@@ -12,9 +12,13 @@ public class Runner {
 
         Employee employee1 = new Employee("Suzie Smith", department1, 45000);
         Employee employee2 = new Employee("Jamie Jones", department2, 25000);
+        Employee employee3 = new Employee("Kirit Singh", department1, 27500);
+
 
         employee1.save();
         employee2.save();
+        employee3.save();
 
+        Employee.all();
     }
 }
